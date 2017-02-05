@@ -85,3 +85,7 @@ catt() {
 
 # open
 alias o='xdg-open'
+
+# gitk
+alias gk='gitk'
+alias gka='gitk --all'
