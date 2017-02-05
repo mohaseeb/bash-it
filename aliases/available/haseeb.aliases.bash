@@ -89,3 +89,8 @@ alias o='xdg-open'
 # gitk
 alias gk='gitk'
 alias gka='gitk --all'
+
+
+#bash-it
+alias bit='bash-it '
+alias bitalias='bash-it help aliases'
