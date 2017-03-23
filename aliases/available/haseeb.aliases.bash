@@ -94,3 +94,7 @@ alias gka='gitk --all'
 #bash-it
 alias bit='bash-it '
 alias bitalias='bash-it help aliases'
+
+
+#nostetests
+alias nose='nosetests -v --rednose'
