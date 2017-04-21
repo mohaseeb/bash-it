@@ -98,3 +98,11 @@ alias bitalias='bash-it help aliases'
 
 #nostetests
 alias nose='nosetests -v --rednose'
+
+#kubectl
+alias kctl_pods_prod='kubectl --context=prod-system --namespace=dataprocessing get pods'
+alias kctl_pods_stag='kubectl --context=staging-system --namespace=dataprocessing get pods'
+
+alias kctl_logs_prod='kubectl logs --context=prod-system --namespace=dataprocessing'
+alias kctl_logs_stag='kubectl logs --context=staging-system --namespace=dataprocessing'
+
