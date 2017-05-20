@@ -98,3 +98,9 @@ alias bitalias='bash-it help aliases'
 
 #nostetests
 alias nose='nosetests -v --rednose'
+
+
+#emacs
+alias e='emacs'
+alias te='emacs -nw'
+
