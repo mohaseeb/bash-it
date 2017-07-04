@@ -99,6 +99,10 @@ alias bitalias='bash-it help aliases'
 #nostetests
 alias nose='nosetests -v --rednose'
 
+#emacs
+alias e='emacs'
+alias te='emacs -nw'
+
 #kubectl
 alias kctl_pods_prod='kubectl --context=prod-system --namespace=dataprocessing get pods'
 alias kctl_pods_stag='kubectl --context=staging-system --namespace=dataprocessing get pods'
