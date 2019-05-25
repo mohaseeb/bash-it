@@ -100,8 +100,8 @@ alias bitalias='bash-it help aliases'
 alias nose='nosetests -v --rednose'
 
 #emacs
-alias e='emacs'
-alias te='emacs -nw'
+alias e='emacsclient -n -c'
+alias te='emacsclient -c -nw'
 
 #kubectl
 alias kctl_pods_prod='kubectl --context=prod-system --namespace=dataprocessing get pods'
@@ -109,4 +109,8 @@ alias kctl_pods_stag='kubectl --context=staging-system --namespace=dataprocessin
 
 alias kctl_logs_prod='kubectl logs --context=prod-system --namespace=dataprocessing'
 alias kctl_logs_stag='kubectl logs --context=staging-system --namespace=dataprocessing'
+
+
+#python
+alias p='ipython -i'
 
