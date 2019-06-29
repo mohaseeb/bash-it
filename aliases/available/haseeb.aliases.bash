@@ -104,13 +104,13 @@ alias e='emacsclient -n -c'
 alias te='emacsclient -c -nw'
 
 #kubectl
-alias kctl_pods_prod='kubectl --context=prod-system --namespace=dataprocessing get pods'
-alias kctl_pods_stag='kubectl --context=staging-system --namespace=dataprocessing get pods'
-
-alias kctl_logs_prod='kubectl logs --context=prod-system --namespace=dataprocessing'
-alias kctl_logs_stag='kubectl logs --context=staging-system --namespace=dataprocessing'
-
+alias k='kubectl'
+alias kp='kubectl get pods'
+alias kl='kubectl logs'
 
 #python
 alias p='ipython -i'
 
+# tmux
+alias tn='tmux new -s'
+alias ta='tmux a'
