@@ -100,8 +100,8 @@ alias bitalias='bash-it help aliases'
 alias nose='nosetests -v --rednose'
 
 #emacs
-alias e='emacsclient -n -c'
-alias te='emacsclient -c -nw'
+alias e='emacs'
+alias te='emacs -nw'
 
 #kubectl
 alias k='kubectl'
@@ -114,3 +114,12 @@ alias p='ipython -i'
 # tmux
 alias tn='tmux new -s'
 alias ta='tmux a'
+
+
+# lein
+alias li='lein install'
+alias lu='lein uberjar'
+
+
+# sun rise set
+alias sun='java -jar /home/mo/ws/trials/day/target/uberjar/day-sun-rise-set.jar'
